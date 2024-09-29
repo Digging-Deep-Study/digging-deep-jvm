@@ -1,6 +1,8 @@
 # digging-deep-jvm
 JVM 밑바닥까지 파헤쳐서 먼지되기
 
+notion: https://psychedelic-sociology-4e5.notion.site/JVM-1061ea6461b980f48fbfdf12560f774e
+
 ### 스터디방식
 - 진행 범위는 우선 노션에 있는 것 기준으로 시작하고, 난이도에 따라 유동적으로 관리 
 - 2주마다 가능하면 오프라인에서 진행 -> 1시간 발표, 1시간 질문 
