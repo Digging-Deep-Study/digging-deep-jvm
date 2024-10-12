@@ -95,12 +95,24 @@
     <td>
       <img src="https://avatars.githubusercontent.com/u/37826908?v=4" width="120px" height="120px"/>
     </td>
+    <td>
+      <div style="background-color: grey; with: 120px; height: 120px;"></div>
+    </td>
+    <td>
+      <div style="background-color: grey; with: 120px; height: 120px;"></div>
+    </td>
   </tr>
   <tr>
     <td>
       <a href="https://github.com/shine-17">
         김도훈
       </a>
+    </td>
+    <td>
+      <div>공석</div>
+    </td>
+    <td>
+      <div>공석</div>
     </td>
   </tr>
   </table>
