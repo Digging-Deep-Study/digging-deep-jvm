@@ -1,6 +1,6 @@
 # JVM 밑바닥까지 파헤쳐서 먼지되기
 
-> 이 스터디는 [JVM 밑바닥까지 파헤치기](https://ebook.insightbook.co.kr/book/164)책을 참고하여 작성된 글이다.
+> 이 스터디는 [JVM 밑바닥까지 파헤치기](https://ebook.insightbook.co.kr/book/164)책을 참고하여 진행한 스터디입니다.
 
 ![9788966264414 (1) (1)](https://github.com/user-attachments/assets/88f6c619-e093-442f-b471-24b1dbbdbbd7)
 
@@ -30,4 +30,78 @@
 - 준비된 질문을 해도 된다!  
 
 <br/>
+
+### 🏃‍♂️ 스터디원
+
+<table>
+  <tr>
+    <td>
+      <img src="https://avatars.githubusercontent.com/u/96738163?v=4" width="120px" height="120px"/>
+    </td>
+    <td>
+      <img src="https://avatars.githubusercontent.com/u/18282470?v=4" width="120px" height="120px"/>
+    </td>
+    <td>
+      <img src="https://avatars.githubusercontent.com/u/114650607?v=4" width="120px" height="120px"/>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="https://github.com/lolmageap">
+        정철희
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/SungbinYang">
+        양성빈
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/chanwoo040531">
+        김찬우
+      </a>
+    </td>
+  </tr>
+    <tr>  
+    <td>
+      <img src="https://avatars.githubusercontent.com/u/10378777?v=4" width="120px" height="120px"/>
+    </td>
+    <td>
+      <img src="https://avatars.githubusercontent.com/u/54785194?v=4" width="120px" height="120px"/>
+    </td>
+     <td>
+      <img src="https://avatars.githubusercontent.com/u/88075691?v=4" width="120px" height="120px"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/chhs2131">
+        최현식
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/ieunji2">
+        이은지
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/yelm-212">
+        신예림
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://avatars.githubusercontent.com/u/37826908?v=4" width="120px" height="120px"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/shine-17">
+        김도훈
+      </a>
+    </td>
+  </tr>
+  </table>
 
