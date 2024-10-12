@@ -35,7 +35,7 @@
 
 또한 자바 SE API와 자바 가상 머신, 배포 기술까지를 묶어 **JRE(*Java Runtime Environment*)**라고 한다. **JRE**는 자바 프로그램을 실행할 수 있는 표준 환경을 제공한다.
 
-<img src="images/jvm.png">
+<img src="../images/jvm.png">
 
 <br><br>
 
