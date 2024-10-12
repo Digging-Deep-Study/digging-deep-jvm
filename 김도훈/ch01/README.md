@@ -49,7 +49,7 @@
     - 핸들 방식 : 객체에 대한 간접 참조 방식. 객체 참조 → 핸들 → 실제 객체
     - 객체를 직접 참조하지 않고 핸들을 한번 더 거쳐 참조하는 방식
 
-<img src="images/handle.png">
+<img src="../images/handle.png">
 
 <br><br>
 
@@ -58,7 +58,7 @@
 - 정확한 메모리 관리(**다이렉트 포인터 방식**) 덕분에 실행 성능이 크게 개선되었다.
     - 다이렉트 포인터 방식 : 객체에 대한 직접 참조 방식. 객체 참조 → 실제 객체
 
-<img src="images/pointer.png">
+<img src="../images/pointer.png">
 
 - 자바에서는 객체 접근이 빈번하기 때문에, 대부분의 현대 JVM은 다이렉트 포인터 방식 사용
 
@@ -86,7 +86,7 @@
 
 서로 다른 언어들이 데이터를 같은 메모리 공간에서 주고받을 수 있고, 각 언어용으로 작성된 기존 네이티브 라이브러리들도 사용할 수 있다.
 
-<img src="images/graalvm.png">
+<img src="../images/graalvm.png">
 
 그랄 VM은 기본적으로 각종 언어의 소스 코드(예: 자바스크립트)나 컴파일된 중간 형식(예: LLVM 비트코드)을 인터프리터를 통해 그랄 VM이 이해할 수 있는 중간 표현(IR)으로 변환하는 식으로 작동한다.
 
@@ -168,13 +168,13 @@ JDK 10부터는 **그랄 컴파일러**가 추가되었다. 그랄 컴파일러�
 
 <br><br>
 
-<img src="images/graalvmPerformance1.png">
+<img src="../images/graalvmPerformance1.png">
 
 그랄 VM 네이티브 이미지의 구동 시간(최대 50배 단축)
 
 <br><br>
 
-<img src="images/graalvmPerformance2.png">
+<img src="../images/graalvmPerformance2.png">
 
 그랄 VM 네이티브 이미지의 메모리 사용량(최대 5배 감소)
 
