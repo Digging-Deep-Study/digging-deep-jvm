@@ -1,5 +1,7 @@
 # JVM 밑바닥까지 파헤쳐서 먼지되기
 
+> 이 스터디는 [JVM 밑바닥까지 파헤치기](https://ebook.insightbook.co.kr/book/164)책을 참고하여 작성된 글이다.
+
 ![9788966264414 (1) (1)](https://github.com/user-attachments/assets/88f6c619-e093-442f-b471-24b1dbbdbbd7)
 
 - ⏰ 스터디 일시: 격주 일요일 10시-12시 오프라인으로 진행 (온라인 병행)
