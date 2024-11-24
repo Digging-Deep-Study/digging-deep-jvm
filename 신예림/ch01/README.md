@@ -35,7 +35,7 @@ JVM의 구현체 중 가장 널리 사용되며, JDK와 OpenJDK의 기본 JVM이
 
 ### 차세대 JIT compiler
 
-JIT comiler중 C1 컴파일러는 빠르게 컴파일하고 C2 컴파일러는 최적화를 많이 한다고 알려져있고, JDK10 버전부터는 Graal Compiler가 추가되었다.  
+JIT comiler중 C1 컴파일러는 **빠르게 컴파일**하고 C2 컴파일러는 **최적화**를 많이 한다고 알려져 있으며, JDK10 버전부터는 Graal Compiler가 추가되었다.  
 Graal Compiler는 C2 컴파일러를 대체하기 위해 만들어졌으며, 이식성과 확장성이 모두 뛰어나다. 또한 부분 탈출 분석 같은 복잡한 최적화도 수행이 가능하다.
 
 이러한 성과에 힘입어 Graal Compiler가 OpenJDK에 복귀되었다.
