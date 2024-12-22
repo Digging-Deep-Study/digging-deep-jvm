@@ -81,7 +81,7 @@
 - `HashMap<Long, Long>` 구조에서 키와 값에 해당하는 long 정수 2개만이 사용자에게 의미 있는 데이터다. → 총 16바이트
 - 이 두 long 데이터 각각은 java.lang.Long 객체로 감싸지며, Long 객체는 8바이트의 마크 워드, 8바이트의 클래스 포인터, 데이터를 담기 위한 8바이트의 long 변수로 구성된다 → 총 24바이트
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0a08179c-6898-4f98-8b89-2a2ddd15c8b3/e34b7de0-515c-4488-a3a4-0c7240ab3e58/image.png)
+<img src="../images/object.png">
 
 - Long 객체는 Map.Entry에 저장되며, Map.Entry는 16바이트의 객체 헤더, 8바이트의 next 필드, 4바이트의 해시 필드로 구성된다. 여기에 총 32바이트 크기로 맞추기 위한 정렬용 패딩 4바이트도 추가된다. → 총 32바이트
 - HashMap에서는 8바이트 참조를 통해 Map.Entry를 가리킨다. → 8바이트
