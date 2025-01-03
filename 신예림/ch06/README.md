@@ -169,7 +169,7 @@ attribute_info {
 
 - `Code` 속성
 - `Exceptions` 속성
-	- JVM에서는 예외 테이블로 **핸들링 경로를 정의**한다.
+	- JVM에서는 예외 테이블로 핸들링 경로를 정의한다.
 - `LineNumberTable` 속성
 - `LocalVariableTable, LocalVariableTypeTable` 속성
 - `SourceFile, SourceDebugExtension` 속성
@@ -199,7 +199,7 @@ public class ByteCode {
 }
 ```
 
-![](/attatchments/20250101a77f9360.png)
+![](https://yelm-212.github.io/attatchments/20250101a77f9360.png)
 
 ## 바이트 코드 명령어 
 
