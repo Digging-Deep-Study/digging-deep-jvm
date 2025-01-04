@@ -165,21 +165,45 @@ attribute_info {
 | LocalVariableTypeTable               | 클래스             | 로컬 변수의 제네릭 타입 정보                                  |
 | MethodParameters                     | 메서드 테이블      | 메서드의 매개변수에 대한 정보                                 |
 
-%% TODO: 여기 보충 필요 %%
 
 - `Code` 속성
+	- 메서드 본문 코드는 자바 컴파일러에 의해 최종적으로 바이트코드 명령어로 변환된 후 Code 속성에 저장된다.
+	- `Code_attribute` 구조를 따른다.
+
+```java
+Code_attribute {    
+	u2 attribute_name_index;    // 속성 이름을 가리키는 상수의 인덱스    
+	u4 attribute_length;        // 속성의 길이    
+	u2 max_stack;               // 피연산자 스택의 최대 깊이    
+	u2 max_locals;              // 지역 변수 테이블에 필요한 저장소 공간    
+	u4 code_length;             // 바이트코드 스트림 길이    
+	u1 code[code_length];       // 바이트코드 스트림    
+	u2 exception_table_length;  // 예외 테이블 길이    
+	{   
+		u2 start_pc;        
+		u2 end_pc;        
+		u2 handler_pc;        
+		u2 catch_type;    
+	} exception_table[exception_table_length];  // 예외 테이블    
+	u2 attributes_count;    
+	attribute_info attributes[attributes_count];
+}
+```
+
 - `Exceptions` 속성
-	- JVM에서는 예외 테이블로 핸들링 경로를 정의한다.
-- `LineNumberTable` 속성
-- `LocalVariableTable, LocalVariableTypeTable` 속성
-- `SourceFile, SourceDebugExtension` 속성
-- `ConstantValue` 속성
-- `InnerClasses` 속성
-- `Deprecated, Synthetic` 속성
-- `StackMapTable` 속성
-- `Signature` 속성
-- `BootstrapMethods` 속성
-- `MethodParameters` 속성
+	- 메서드 테이블의 **속성**이며, 예외 테이블과는 다르다.
+		- JVM에서는 예외 테이블로 **핸들링 경로를 정의**한다.
+	- 메서드에서 `throw`될 수 있는 예외를 나열하는 기능을 한다.
+	- `Exceptions_attribute` 구조를 따른다.
+
+```java
+Exceptions_attribute {    
+	u2 attribute_name_index;    
+	u4 attribute_length;    
+	u2 number_of_exceptions;  // 이 메서드가 던질 수 있는 검사 예외 개수    
+	u2 exception_index_table[number_of_exceptions];  // 검사 예외 각각의 타입(상수 풀 인덱스)    
+}
+```
 
 
 ### ByteViewer
