@@ -42,13 +42,13 @@
 | 5 | 12/08(일), 오전 10시 |  | 4장 가상 머신 성능 모니터링과 문제 해결 도구 | 도훈, 성빈 | :white_check_mark: |
 | 6 | 12/22(일), 오전 10시 |  | 5장 최적화 사례 분석 및 실천 | 현식 | :white_check_mark: |
 | 7 | 01/05(일), 오전 10시 | 3부 가상 머신 실행 서브시스템 | 6장 클래스 파일 구조 | 철희 | :white_check_mark: |
-| 8 | 01/19(일), 오전 10시 |  | 7장 클래스 로딩 메커니즘 |  | 예정 |
-| 9 | / |  | 8장 바이트코드 실행 엔진 |  |  |
-| 10 | / |  | 9장 클래스 로딩과 실행 서브시스템, 사례와 실천 |  |  |
-| 11 | / | 4부 컴파일과 최적화 | 10장 프런트엔드 컴파일과 최적화 |  |  |
-| 12 | / |  | 11장 백엔드 컴파일과 최적화 |  |  |
-| 13 | / | 5부 효율적인 동시성 | 12장 자바 메모리 모델과 스레드 |  |  |
-| 14 | / |  | 13장 스레드 안전성과 락 최적화 |  |  |
+| 8 | 01/19(일), 오전 10시 |  | 7장 클래스 로딩 메커니즘 | 찬우 | :white_check_mark: |
+| 9 | 02/02(일), 오전 10시 |  | 8장 바이트코드 실행 엔진 | 철희, 찬우 | :white_check_mark: |
+| 10 | 02/16(일), 오전 10시 |  | 9장 클래스 로딩과 실행 서브시스템, 사례와 실천 | 성빈, 은지, 현식 | :white_check_mark: |
+| 11 | 03/02(일), 오전 10시 | 4부 컴파일과 최적화 | 10장 프런트엔드 컴파일과 최적화 |  |  |
+| 12 | 03/00(일) |  | 11장 백엔드 컴파일과 최적화 |  |  |
+| 13 | 04/00(일) | 5부 효율적인 동시성 | 12장 자바 메모리 모델과 스레드 |  |  |
+| 14 | 04/00(일) |  | 13장 스레드 안전성과 락 최적화 |  |  |
 
 <br/>
 
@@ -64,6 +64,9 @@
     </td>
     <td>
       <img src="https://avatars.githubusercontent.com/u/114650607?v=4" width="120px" height="120px"/>
+    </td>
+    <td>
+      <img src="https://avatars.githubusercontent.com/u/10378777?v=4" width="120px" height="120px"/>
     </td>
   </tr>
 
@@ -83,24 +86,27 @@
         김찬우
       </a>
     </td>
-  </tr>
-    <tr>  
     <td>
-      <img src="https://avatars.githubusercontent.com/u/10378777?v=4" width="120px" height="120px"/>
+      <a href="https://github.com/chhs2131">
+        최현식
+      </a>
     </td>
+  </tr>
+  <tr>  
     <td>
       <img src="https://avatars.githubusercontent.com/u/54785194?v=4" width="120px" height="120px"/>
     </td>
      <td>
       <img src="https://avatars.githubusercontent.com/u/88075691?v=4" width="120px" height="120px"/>
     </td>
+    <td>
+      <img src="https://avatars.githubusercontent.com/u/37826908?v=4" width="120px" height="120px"/>
+    </td>
+    <td>
+      <div style="background-color: grey; with: 120px; height: 120px;"></div>
+    </td>
   </tr>
   <tr>
-    <td>
-      <a href="https://github.com/chhs2131">
-        최현식
-      </a>
-    </td>
     <td>
       <a href="https://github.com/ieunji2">
         이은지
@@ -110,27 +116,11 @@
       <a href="https://github.com/yelm-212">
         신예림
       </a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://avatars.githubusercontent.com/u/37826908?v=4" width="120px" height="120px"/>
-    </td>
-    <td>
-      <div style="background-color: grey; with: 120px; height: 120px;"></div>
-    </td>
-    <td>
-      <div style="background-color: grey; with: 120px; height: 120px;"></div>
-    </td>
-  </tr>
-  <tr>
+    </td>  
     <td>
       <a href="https://github.com/shine-17">
         김도훈
       </a>
-    </td>
-    <td>
-      <div>공석</div>
     </td>
     <td>
       <div>공석</div>
