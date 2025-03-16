@@ -71,7 +71,7 @@
 
   <tr>
     <td>
-      <a href="https://github.com/lolmageap">
+      <a href="https://github.com/backend-cheolhee-jung">
         정철희
       </a>
     </td>
